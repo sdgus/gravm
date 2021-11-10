@@ -1,0 +1,2 @@
+# logo_text: !php/const GRAVM_LOGO_TEXT  # Admin app logo text from PHP const - does not supported by Grav
+logo_text: GravM  # App logo as text

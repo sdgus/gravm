@@ -1,0 +1,11 @@
+assets/
+__*
+backup
+cache
+logs
+user/accounts
+user/config/media.yaml
+user/config/security.yaml
+user/config/system.yaml
+user/config/versions.yaml
+user/data
