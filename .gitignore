@@ -1,6 +1,6 @@
 # Grav crushes without these dirs
 assets/**
-user/accounts/*
+user/accounts/**
 
 # Ignore dirs
 __*
