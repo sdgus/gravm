@@ -1,18 +1,18 @@
-# **GravM**ultisite - это настоящий мультисайт Grav
+# **GravM**ultisite is a true Grav multisite
 
-	* `GravM` - это реакция на слабую и ограниченную реализацию мультисайта в Grav.
+	* Grav supports multisites in a special dir `user/env` only.
 	* `GravM`:
-		- позволяет создавать сайты GravM где угодно на диске, а не только в дире Grav
-		- является расширением Grav, причем небольшим и достаточно простым
-		- не затрагивает сам Grav (кроме одного небольшого фикса)
-		- является только конфигуратором сайта, не имеет никаких своих кодов или классов
-		- совместим со всеми версиями Grav (проверено до 1.7.24)
-	* `GravM` привел к строгому разделению на host и site, а именно:
-		- host и site - `абсолютно разные сущности`, хост управляет сайтом и является сервисом для сайта.
-		- хост один, а сайтов много.
-		- CMS и хост - это или одно и то же, или хост является реализацией CMS.
-		- сайт - это конфигуратор страниц (по правилам хоста).
-		- и т.д. и т.п...
+		- supports GravM sites anywhere on disk, not in a `user/env` dir only
+		- is a small Grav extension
+		- does not affects Grav installation (except a single small fix)
+		- is a site configurator, does not contain any source codes or classes
+		- compatible with all Grav versions (tested up to 1.7.24)
+	* `GravM` makes strict separation between host and site, namely:
+		- host and site is absolutally different entities, host manages site an is a service for a site.
+		- one host may control many sites.
+		- CMS and host is the same, or host is a realization of CMS.
+		- site is a configurator of pages (according to some host rules).
+		- and so on...
 
 # QuickStart
 
