@@ -1,5 +1,5 @@
 # Grav crushes without these dirs
-# assets/**
+assets/**
 user/accounts/*
 
 # Ignore dirs
