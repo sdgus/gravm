@@ -1,11 +1,16 @@
+# Grav crushes without these dirs
 assets/
+user/accounts/
+
+# Ignore dirs
 __*
 backup
 cache
 logs
-user/accounts
+user/data
+
+# Ignore files
 user/config/media.yaml
 user/config/security.yaml
 user/config/system.yaml
 user/config/versions.yaml
-user/data
