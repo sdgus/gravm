@@ -1,6 +1,8 @@
 # Grav crushes without these dirs
 assets/**
+!assets/.gitkeep
 user/accounts/**
+user/accounts/.gitkeep
 
 # Ignore dirs
 __*
