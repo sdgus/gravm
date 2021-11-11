@@ -2,7 +2,7 @@
 assets/**
 !assets/.gitkeep
 user/accounts/**
-user/accounts/.gitkeep
+!user/accounts/.gitkeep
 
 # Ignore dirs
 __*
