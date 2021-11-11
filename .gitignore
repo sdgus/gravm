@@ -1,4 +1,4 @@
-# Grav crushes without these dirs
+# Grav crushes without these dirs: assets, user/accounts
 assets/**
 !assets/.gitkeep
 user/accounts/**
