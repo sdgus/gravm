@@ -5,7 +5,6 @@ user/accounts/**
 !user/accounts/.gitkeep
 
 # Ignore dirs
-__*
 backup
 cache
 logs
