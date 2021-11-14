@@ -32,9 +32,8 @@ return [
 			'plugins' => [
 				'type' => 'ReadOnlyStream',
 				'paths' => [
-					'site://plugins',		// GravM site-only plugins could be located in site root
-					'site://user/plugins',	// ... or in site/user (default Grav plugins location)
-					'grav://user/plugins',
+					'site://' . GRAV_USER_PATH . '/plugins',
+					'grav://' . GRAV_USER_PATH . '/plugins',
 				],
 			],
 			'plugin' => [					// synonym for `plugins` stream (used by `Admin` plugin)
@@ -44,9 +43,8 @@ return [
 			'themes' => [
 				'type'	=> 'ReadOnlyStream',
 				'paths' => [
-					'site://themes',		// GravM site-only themes could be located in site root
-					'site://user/themes',	// ... or in site/user (default Grav themes location)
-					'grav://user/themes',
+					'site://' . GRAV_USER_PATH . '/themes',
+					'grav://' . GRAV_USER_PATH . '/themes',
 				],
 			],
 		],

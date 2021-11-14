@@ -7,9 +7,6 @@
  * @license    MIT License; see LICENSE file for details.
  */
 
-require 'D:/LocalHost/vsd.loc/micro/src/Micro/Error/ErrorHandler.php';
-new \Micro\Error\ErrorHandler();
-
 define('GRAVM', true);
 define('GRAVM_VERSION', '1.1.1');
 define('GRAVM_SITE_GRAV', '../grav');   // RELATIVE path from GravM site to Grav host (used in site's `/setup.php`)
@@ -24,7 +21,7 @@ $gravPath = __DIR__ . '/' . GRAVM_SITE_GRAV;   // Abs path to Grav host
 
 // !!!
 // !!! Fix known inaccuracies in Grav installation
-// !!! Comment or remove this fix if you are shure that used Grav host is already fixed
+// !!! Comment or remove this fix if you are shure that Grav host used is already fixed
 // !!!
 if (file_exists($fix = __DIR__ . '/gravmFixGrav.php')) {
     require $fix;

@@ -8,7 +8,7 @@
 		- is a site configurator, does not contain any source codes or classes
 		- compatible with all Grav versions (tested up to 1.7.24)
 	* `GravM` makes strict separation between host and site, namely:
-		- host and site is absolutally different entities, host manages site an is a service for a site.
+		- host and site is absolutally different entities, host manages site or is a service for a site.
 		- one host may control many sites.
 		- CMS and host is the same, or host is CMS implementation.
 		- site is a page's configurator according to some host rules.
