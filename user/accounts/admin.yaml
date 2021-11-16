@@ -1,0 +1,11 @@
+state: enabled
+email: sdgus@mail.ru
+fullname: 'Serge Gusev'
+title: Admin
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$IU3JuoaBNVqctEiLaxl2n.tCTpHv8mXShNvwVsx9HWsp8G00F7OwG
